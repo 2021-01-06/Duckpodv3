@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>사용방법</p>
+<p>개발환경 : 리눅스</p>
+<p>1. Ros Melodic을 설치한다.</p>
+<p>2. Node.js를 설치한다</p>
+<p>3. Npm을 설치한다.</p>
+<p>4. Roslibjs 공식 홈페이지에서 roslib.js을 가져온다.</p>
+<p>5. mysql 실행하기..</p>
+<p>6. 알아서 수정하기..</p>
+참조 : https://www.44bits.io/ko/post/easy-deploy-with-docker
+
+도커 설치하기
+curl -s https://get.docker.com | sudo sh
+
+설치 확인
+docker -v
+
+ce, ce-cli 설치확인
+dpkg --get-selections | grep docker
+
+관리자 권한 부여
+sudo usermod -aG docker $USER
+sudo su - $USER
+
+centos 설치
+docker pull ubuntu:latest
+
+도커 허브에서 이미지 확인
+docker info | grep Registry
+
+컨테이너 실행
+docker run -it ubuntu:latest bash
+
+컨테이너 재실행
+docker restart d3fef9c0f9e9
+
+컨테이너 명령하기
+docker attach d3fef9c0f9e9
+
+Dockerfile 만들기
+FROM ubuntu:bionic
+RUN apt-get update
+RUN apt-get install -y git
+
+Dcokerfile build
+docker build -t ubuntu:git-from-dockerfile .
+
+설치해야할 패키지 node.js roslibjs, npm, mysql 등등
+</body>
+</html>
