@@ -51,6 +51,15 @@ RUN apt-get install -y git
 Dcokerfile build
 docker build -t ubuntu:git-from-dockerfile .
 
+background로 실행하기
+docker run -d -p 9999:80 nacyot/moniwiki:latest
+
+docker hub에 push하기
+docker push <DOCKER_HUB_ID>/moniwiki:latest
+
+docker hub에서 가져와서 실행하기
+
+linux ssh https://wlsvud84.tistory.com/12
 설치해야할 패키지 node.js roslibjs, npm, mysql 등등
 </body>
 </html>
