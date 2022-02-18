@@ -1,5 +1,5 @@
 # Duckpod Project
-'<'ARIL'>'
+\<ARIL\>
 <br>
 2022-02-14 : github create
 <br>
