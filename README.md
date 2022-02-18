@@ -21,7 +21,7 @@ flask_test for Web
 <br>
 <br>
 # How to use
-this is in progress so this will not work well
+<p>this is in progress so this will not work well<\p>
 <br>
 activate gps_data.sql file in Mysql on server computer
 <br>
