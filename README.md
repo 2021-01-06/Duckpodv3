@@ -31,5 +31,11 @@ activate app.py file in flask_test on server computer or local computer to see D
 
 # To do
 <br>
-issues : too many requirements in requirements.txt
+Complete Dockerfile
 <br>
+<br>
+<br>
+<br>
+<br>
+# Issues
+too many requirements in requirements.txt --- we need to test on docker
