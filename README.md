@@ -8,8 +8,14 @@
 2022-02-18 : server's mysql code add
 <br>
 <br>
+<br>
+<br>
+<br>
+# Applications
+Mysql for server db
+flask_test for Web
 
-
+# To do
 <br>
 issues : too many requirements in requirements.txt
 <br>
