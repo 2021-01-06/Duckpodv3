@@ -7,6 +7,7 @@
 <br>
 2022-02-18 : server's mysql code add
 <br>
+2022-02-21 : remote sensor data insert db success
 <br>
 <br>
 <br>
@@ -15,6 +16,29 @@
 Mysql for server DB
 <br>
 flask_test for Web
+<br>
+<br>
+<br>
+<br>
+<br>
+# Mysql
+sudo apt-get update
+<br>
+sudo apt-get install mysql-server
+<br>
+# Mysql Workbench
+sudo apt update
+<br>
+sudo apt install mysql-workbench
+<br>
+issues : login-error --- authentication problem, need to change from * to native_password
+<br>
+solutions : ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+<br>
+make user, host with ip %(open to all IP) with mysql workbench 
+<br>
+make bind-address = 127.0.0.1 unavailable in /etc/mysql/mysql.conf.d/mysqld.cnf
+<br>
 <br>
 <br>
 <br>
