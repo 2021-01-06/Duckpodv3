@@ -39,21 +39,12 @@ make user, host with ip %(open to all IP) with mysql workbench
 <br>
 make bind-address = 127.0.0.1 unavailable in /etc/mysql/mysql.conf.d/mysqld.cnf
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
 # Docker install
  sudo apt-get update
 <br>
  sudo apt-get install docker-ce docker-ce-cli containerd.io
 <br>
 ref : https://docs.docker.com/engine/install/ubuntu/
-<br>
-<br>
-<br>
-<br>
 <br>
 # How to use
 <p>this is in progress so this will not work well<p>
@@ -64,18 +55,9 @@ roslaunch gps or imu ... sensors in Duckpod --- you need to edit codes
 <br>
 activate app.py file in flask_test on server computer or local computer to see DB data --- selective
 <br>
-<br>
-<br>
-<br>
-<br>
 # To do
 <br>
 Complete Dockerfile
 <br>
-<br>
-<br>
-<br>
-<br>
-  
 # Issues
 too many requirements in requirements.txt --- we need to test on docker
