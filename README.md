@@ -9,17 +9,10 @@
 <br>
 2022-02-21 : remote sensor data insert db success
 <br>
-<br>
-<br>
-<br>
 # Applications
 Mysql for server DB
 <br>
 flask_test for Web
-<br>
-<br>
-<br>
-<br>
 <br>
 # Mysql
 sudo apt-get update
