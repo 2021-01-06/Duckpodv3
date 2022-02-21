@@ -63,6 +63,11 @@ activate gps_data.sql file in Mysql on server computer
 roslaunch gps or imu ... sensors in Duckpod --- you need to edit codes
 <br>
 activate app.py file in flask_test on server computer or local computer to see DB data --- selective
+<br>
+<br>
+<br>
+<br>
+<br>
 # To do
 <br>
 Complete Dockerfile
