@@ -22,8 +22,15 @@ flask_test for Web
 <br>
 # Docker install
  sudo apt-get update
+<br>
  sudo apt-get install docker-ce docker-ce-cli containerd.io
+<br>
 ref : https://docs.docker.com/engine/install/ubuntu/
+<br>
+<br>
+<br>
+<br>
+<br>
 # How to use
 <p>this is in progress so this will not work well<p>
 <br>
@@ -32,7 +39,6 @@ activate gps_data.sql file in Mysql on server computer
 roslaunch gps or imu ... sensors in Duckpod --- you need to edit codes
 <br>
 activate app.py file in flask_test on server computer or local computer to see DB data --- selective
-
 # To do
 <br>
 Complete Dockerfile
