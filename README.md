@@ -20,6 +20,10 @@ flask_test for Web
 <br>
 <br>
 <br>
+# Docker install
+ sudo apt-get update
+ sudo apt-get install docker-ce docker-ce-cli containerd.io
+ref : https://docs.docker.com/engine/install/ubuntu/
 # How to use
 <p>this is in progress so this will not work well<p>
 <br>
