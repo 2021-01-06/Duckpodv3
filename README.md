@@ -39,6 +39,12 @@ make bind-address = 127.0.0.1 unavailable in /etc/mysql/mysql.conf.d/mysqld.cnf
 <br>
 ref : https://docs.docker.com/engine/install/ubuntu/
 <br>
+# Docker mysql related
+ref : https://phoenixnap.com/kb/mysql-docker-container
+<br>
+how to store data in server's dist
+<br>
+how to use docker mysql
 # How to use
 <p>this is in progress so this will not work well<p>
 <br>
