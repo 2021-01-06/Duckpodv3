@@ -11,7 +11,6 @@
 <br>
 2022-02-22 : requirements fix -- can use
 <br>
-# Com System
 ![2022_02_22_이규영_문석준](https://user-images.githubusercontent.com/77026510/155073784-5c461e86-23f9-43ed-82f2-854653d5f481.png)
 # Applications
 Mysql for server DB
