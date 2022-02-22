@@ -9,7 +9,7 @@
 <br>
 2022-02-21 : remote sensor data insert db success
 <br>
-2022-02-22 : requirements fix
+2022-02-22 : requirements fix -- can use
 <br>
 # Applications
 Mysql for server DB
